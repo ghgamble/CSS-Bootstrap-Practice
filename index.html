@@ -1,0 +1,57 @@
+<!DOCTPYE html>
+<html>
+    <head>
+        <title>CSS: Bootstrap Practice</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.js"></script>
+        <link rel="stylesheet" href="main.css" type="text/css"/>
+    </head>
+    <body>
+        <div class="jumbotron">JUMBOTRON</div>
+        <div class= "navbar navbar-default">
+            <ul class="nav nav-tabs nav-justified">
+                <li>Home</li>
+                <li>About Me</li>
+                <li>Products</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/10600669_728454903818_900458828481189818_n.jpg?oh=65e80241d34a8fc6c53b419057518453&oe=57D20C16" alt="Tajar in the Snow" width="460" height="345">
+                </div>
+                <div class="item">
+                    <img src="https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/10526010_702824307738_2331593153763813036_n.jpg?oh=99308feb1cf1ab23c23e0d5bb9804b20&oe=57D6CFAE" alt="Tajar at Coot Lake" width="460" height="345">
+                </div>
+                <div class="item">
+                    <img src="https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/1607080_679590129218_828724860_n.jpg?oh=5a85685c8d4ba478d2bcb797420b23d6&oe=57D5813A" alt="Tajar on the Couch" width="460" height="345">
+                </div>
+                <div class="item">
+                    <img src="https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/1098069_652904168098_1632573898_n.jpg?oh=202993c1873bacd655cd73655c91277a&oe=57C29A98" alt="Tajar in Telluride" width="460" height="345">
+                </div>
+            </div>
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    </body>
+</html>
